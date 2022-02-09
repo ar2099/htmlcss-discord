@@ -151,3 +151,33 @@ header p{
   /* background-color: yellow; */
   text-align: center;
 }
+
+/* MAIN */
+
+.miniblocco {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    border: 3px solid black;
+    position: relative;
+}
+
+.onda img {
+    float: left;
+    width: 100%;
+    height: 12vh;
+    margin: auto;
+    filter: invert(90%);
+}
+
+#we {
+ background-color: white;
+}
+
+#primo-miniblocco {
+background-color: white;
+}
+
+#secondo-miniblocco {
+    background-color: 
+}
