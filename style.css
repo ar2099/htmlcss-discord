@@ -155,29 +155,53 @@ header p{
 /* MAIN */
 
 .miniblocco {
-    height: 100vh;
+    height: 88vh;
     width: 100%;
-    background-color: blue;
-    border: 3px solid black;
-    position: relative;
 }
 
-.onda img {
+.macro-blocco {
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 100%;
+}
+
+#primo-miniblocco {
+    background-color: white;
+}
+
+#secondo-miniblocco {
+    background-color: #E5E5E5;
+}
+
+#terzo-miniblocco {
+    background-color: white;
+}
+.onda {
+    height: 12vh;
+    width: 100%;
+}
+
+#prima-onda img {
     float: left;
     width: 100%;
-    height: 12vh;
+    height: 100%;
     margin: auto;
     filter: invert(90%);
 }
 
-#we {
- background-color: white;
+#seconda-onda img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    filter: invert(100%);
 }
 
-#primo-miniblocco {
-background-color: white;
+#prima-onda {
+    background-color: white;
 }
 
-#secondo-miniblocco {
-    background-color: 
+#seconda-onda {
+    background-color: #E5E5E5;
 }
+
