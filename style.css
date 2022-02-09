@@ -154,6 +154,9 @@ header p{
 
 /* MAIN */
 
+
+/* Blocchi del main  */
+
 .miniblocco {
     height: 88vh;
     width: 100%;
@@ -176,32 +179,42 @@ header p{
 #terzo-miniblocco {
     background-color: white;
 }
+
+/* impostazioni onda  */
+
 .onda {
     height: 12vh;
     width: 100%;
 }
 
-#prima-onda img {
+.onda img {
     float: left;
     width: 100%;
     height: 100%;
-    margin: auto;
+    
+}
+
+.onda-bianca img {
     filter: invert(90%);
 }
 
-#seconda-onda img {
-    float: left;
-    width: 100%;
-    height: 100%;
-    margin: auto;
+.onda-grigia img {
     filter: invert(100%);
 }
 
-#prima-onda {
+.onda-bianca {
     background-color: white;
 }
 
-#seconda-onda {
+.onda-grigia {
     background-color: #E5E5E5;
 }
 
+
+/* FOOTER */
+
+footer {
+    background-color: #23272A;
+    height: 80vh;
+    width: 100%;
+}
