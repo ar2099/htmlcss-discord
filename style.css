@@ -149,7 +149,7 @@ header p{
   position: absolute;
   display: inline-block;
   /* background-color: yellow; */
-  text-align: center;
+   text-align: center; 
 }
 
 /* MAIN */
@@ -213,16 +213,28 @@ header p{
 
 /* contenuto miniblocchi  */
 
-.container img {
+.sinistra img {
     float: left;
+}
+
+.destra img {
+    float: right;
+}
+
+.sinistra {
+    float:left;
+}
+
+.destra {
+    float: right;
 }
 
 .testi-miniblocco {
     width: 33%;
     /* background-color: yellow; */
     display: inline-block;
-    float: right;
 }
+
 
 .titolo-miniblocco {
     font-size: 2.9em;
@@ -238,16 +250,14 @@ header p{
 
 .contenuto-miniblocco {
   display: inline-block;
-  /* background-color: red; */
-  height: 75%;
+  /* background-color: red;  */
+  box-sizing: content-box;
   width: 70%;
-  position: absolute;
-    top: 50%;
-  bottom: 50%;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-}
+   position: absolute;
+    right: 15%;
+    left: 15%;
+    top: calc((100% - 444px) / 2);
+} 
 
 /* FOOTER */
 
