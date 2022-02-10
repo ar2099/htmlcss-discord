@@ -158,8 +158,9 @@ header p{
 /* Blocchi del main  */
 
 .miniblocco {
-    height: 88vh;
+    height: 95vh;
     width: 100%;
+    position: relative;
 }
 
 .macro-blocco {
@@ -210,6 +211,43 @@ header p{
     background-color: #E5E5E5;
 }
 
+/* contenuto miniblocchi  */
+
+.container img {
+    float: left;
+}
+
+.testi-miniblocco {
+    width: 33%;
+    /* background-color: yellow; */
+    display: inline-block;
+    float: right;
+}
+
+.titolo-miniblocco {
+    font-size: 2.9em;
+    font-weight: bolder;
+    margin-top: 33px;
+}
+
+.descrizione-miniblocco {
+    font-size: 1.1em;
+    margin-top: 2.5vh;
+    font-weight: 500;
+}
+
+.contenuto-miniblocco {
+  display: inline-block;
+  /* background-color: red; */
+  height: 75%;
+  width: 70%;
+  position: absolute;
+    top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* FOOTER */
 
