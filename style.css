@@ -295,13 +295,9 @@ header p{
     left: 15%;
     top: 5%;
 } 
-/* FOOTER */
 
-footer {
-    background-color: #23272A;
-    height: 80vh;
-    width: 100%;
-}
+
+
 
 .titolo-pulsante {
     width: 100%;
@@ -340,4 +336,32 @@ footer {
     float: left;
     text-align: center;
     
+}
+
+
+/* FOOTER  */
+
+.footer-container-a {
+    width: 75%;
+    height: 65%;
+    background-color: yellow;
+    display: block;
+    margin: 0px auto 30px auto;
+    
+}
+
+.footer-container-b {
+    width: 75%;
+    height: 15%;
+    background-color: rgb(94, 255, 0);
+    display: block;
+    margin: 0px auto 30px auto;
+    
+}
+
+footer {
+    background-color: #23272A;
+    height: 90vh;
+    width: 100%;
+    position: relative;
 }
