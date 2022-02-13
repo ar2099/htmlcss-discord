@@ -355,7 +355,7 @@ header p{
 .footer-container-b {
     width: 75%;
     height: 15%;
-    background-color: rgb(94, 255, 0);
+    /* background-color: rgb(94, 255, 0); */
     display: block;
     margin: 0px auto 30px auto;
     
@@ -430,4 +430,33 @@ font-weight: bolder;
 
 .footer-menu {
     color: white;
+}
+
+
+
+.footer-line {
+    padding-top: 20px;
+    text-decoration: blue 2px;
+}
+
+.footer-nav {
+    position: relative;
+    padding-top: 20px;
+    border-top: 2px solid blue;
+}
+
+.footer-nav a{
+    float: right;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px; 
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+
+
+}
+.footer-nav img{
+    float: left;
 }
